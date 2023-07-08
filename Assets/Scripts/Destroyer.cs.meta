@@ -3,7 +3,10 @@ guid: cf393c766687b4341857c21663ff0423
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Player: {instanceID: 0}
+  - PlatformPrefab: {fileID: 9076627405963630210, guid: 59fc6afb4c4c6b547bbfe9df8c04d869, type: 3}
+  - SpringPrefab: {fileID: 2214824712744549436, guid: 059cf0bcb2e1dce4786962be8d3b81c9, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

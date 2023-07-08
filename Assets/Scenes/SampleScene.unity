@@ -704,9 +704,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf393c766687b4341857c21663ff0423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1897576957}
-  platformPrefab: {fileID: 9076627405963630210, guid: 59fc6afb4c4c6b547bbfe9df8c04d869, type: 3}
-  springPrefab: {fileID: 2214824712744549436, guid: 059cf0bcb2e1dce4786962be8d3b81c9, type: 3}
+  Player: {fileID: 1897576957}
+  PlatformPrefab: {fileID: 9076627405963630210, guid: 59fc6afb4c4c6b547bbfe9df8c04d869, type: 3}
+  SpringPrefab: {fileID: 2214824712744549436, guid: 059cf0bcb2e1dce4786962be8d3b81c9, type: 3}
 --- !u!1001 &1728494386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -853,6 +853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0573cf02848483447a840871b3098a6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _rb2d: {fileID: 1897576959}
 --- !u!50 &1897576959
 Rigidbody2D:
   serializedVersion: 4
@@ -887,7 +888,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.016129464, y: -0.11290592}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -898,7 +899,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.24, y: 1.2}
+  m_Size: {x: 0.7131056, y: 0.9741882}
   m_EdgeRadius: 0
 --- !u!212 &1897576961
 SpriteRenderer:
